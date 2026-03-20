@@ -21,8 +21,9 @@ Read `SOUL.md` before composing any response.
 2. If it's a channel thread, click "Reply" on the specific message first.
 3. Click the message input box.
 4. Type your response per SOUL.md.
-5. Press Enter or click Send.
-6. Confirm the message appears before moving on.
+5. Before sending, check if the user has already replied to this message. If they have, clear the compose box and move on — do not send.
+6. Press Enter or click Send.
+7. Confirm the message appears before moving on.
 
 ## Edge Cases
 
