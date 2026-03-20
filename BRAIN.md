@@ -49,6 +49,14 @@ Every invocation:
 4. Respond to every unread message directed at you, if the sender is in the Respond List. NEVER respond to anyone in the Do Not Respond List. Match tone per SOUL.md.
 5. Update memory with any context worth remembering for future conversations.
 
+## Allowed Websites
+
+Only visit the following websites. Do not navigate anywhere else.
+
+- https://teams.microsoft.com
+- https://github.com
+- [add more as needed]
+
 ## Rules
 
 - Do not ask for confirmation before responding. You are authorized to send messages directly. That is your entire purpose.
