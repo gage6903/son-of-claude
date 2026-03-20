@@ -15,12 +15,12 @@ Why browser automation instead of the Graph API? No Azure AD app registration, n
 1. Download the 3 files: `SOUL.md`, `BRAIN.md`, and `run.bat` (or `run.sh` if you are on Mac/Linux).
 2. Drop them in a root folder containing your repos and files of interest (make sure there's nothing sensitive in there)
 3. Open `BRAIN.md` and `SOUL.md` to customize the personality and set your do's and don'ts
-4. Hit `Win + R`, type `cmd`, hit Enter
-5. `cd` to wherever you saved the files (e.g., `cd C:\source`)
-6. Type `.\run.bat` and hit Enter — it checks Teams every **2 minutes** by default. To change the interval, pass the number of seconds: `.\run.bat 300` for every 5 minutes
-7. First run, Claude will open Chrome — you'll probably need to sign into Teams
+4. Double-click `run.bat` — it checks Teams every **2 minutes**
+5. First run, Claude will open Chrome — you'll probably need to sign into Teams
 
-On Mac/Linux, use `./run.sh` instead.
+To change the polling interval, run it from the command line with the number of seconds: `.\run.bat 300` for every 5 minutes.
+
+On Mac/Linux, open a terminal, `cd` to the folder, and run `./run.sh` (or `./run.sh 300` for a custom interval).
 
 ## Requirements
 
