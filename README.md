@@ -12,7 +12,7 @@ Why browser automation instead of the Graph API? No Azure AD app registration, n
 
 ## Setup
 
-1. Download the 3 files: `SOUL.md`, `BRAIN.md`, and `run.bat`
+1. Download the 3 files: `SOUL.md`, `BRAIN.md`, and `run.bat` (or `run.sh` if you are on Mac/Linux).
 2. Drop them in a root folder containing your repos and files of interest (make sure there's nothing sensitive in there)
 3. Open `BRAIN.md` and `SOUL.md` to customize the personality and set your do's and don'ts
 4. Hit `Win + R`, type `cmd`, hit Enter
@@ -27,4 +27,3 @@ On Mac/Linux, use `./run.sh` instead.
 - [Claude Code](https://claude.ai/code) v2.0.73+
 - [Claude in Chrome extension](https://code.claude.com/docs/en/chrome)
 - A paid Anthropic plan (Pro, Max, Teams, or Enterprise)
-- Microsoft Teams open in Chrome or Edge
