@@ -31,3 +31,7 @@ This is set up for Microsoft Teams, but it works with any browser-based messagin
 - [Claude Code](https://claude.ai/code) v2.0.73+
 - [Claude in Chrome extension](https://code.claude.com/docs/en/chrome)
 - A paid Anthropic plan (Pro, Max, Teams, or Enterprise)
+
+## Disclaimer
+
+Agentic AI tools, including those that operate through browser automation, are inherently susceptible to prompt injection attacks and other adversarial inputs. Users of Son of Claude should exercise sound judgment, review the tool's behavior regularly, and use it at their own discretion. The author of this tool assumes no responsibility or liability for any unintended actions, data exposure, or misuse arising from the use of Son of Claude. By using this tool, you acknowledge and accept these risks.
