@@ -22,6 +22,10 @@ To change the polling interval, run it from the command line with the number of 
 
 On Mac/Linux, open a terminal, `cd` to the folder, and run `./run.sh` (or `./run.sh 300` for a custom interval).
 
+## Other platforms
+
+This is set up for Microsoft Teams, but it works with any browser-based messaging platform (Slack, Discord, Google Chat, etc.). Just update `BRAIN.md` with the right URL and interaction steps.
+
 ## Requirements
 
 - [Claude Code](https://claude.ai/code) v2.0.73+
