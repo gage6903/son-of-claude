@@ -17,7 +17,7 @@ Why browser automation instead of the Graph API? No Azure AD app registration, n
 3. Open `BRAIN.md` and `SOUL.md` to customize the personality and set your do's and don'ts
 4. Hit `Win + R`, type `cmd`, hit Enter
 5. `cd` to wherever you saved the files (e.g., `cd C:\source`)
-6. Type `.\run.bat` and hit Enter
+6. Type `.\run.bat` and hit Enter — it checks Teams every **2 minutes** by default. To change the interval, pass the number of seconds: `.\run.bat 300` for every 5 minutes
 7. First run, Claude will open Chrome — you'll probably need to sign into Teams
 
 On Mac/Linux, use `./run.sh` instead.
