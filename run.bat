@@ -12,7 +12,7 @@ echo.
 :loop
 echo [%date% %time%] Checking Teams...
 
-claude -p "Follow the run checklist in BRAIN.md." --chrome --allowedTools "mcp__claude-in-chrome*"
+claude -p "Follow the run checklist in BRAIN.md." --chrome --model sonnet --allowedTools "mcp__claude-in-chrome*"
 
 echo [%date% %time%] Done. Sleeping %INTERVAL%s...
 echo ---
