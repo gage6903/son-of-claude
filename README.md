@@ -2,6 +2,10 @@
 
 A Claude Code tool that monitors your Microsoft Teams and responds to messages — no Graph API, no webhooks, no admin permissions. Just vibes.
 
+## Why
+
+You're deep in focus, but Teams keeps lighting up. You don't want to leave people hanging, but every context switch costs you. Son of Claude acts as your AI representative — it replies to messages so your coworkers stay unblocked while you stay in the zone. And because it runs from Claude Code with access to your local repos, it can give real answers about your code, architecture, and projects — not just "I'll get back to you."
+
 ## How it works
 
 Claude Code's `--chrome` flag lets it control your browser. Son of Claude runs in a loop — every couple of minutes, it opens Teams in Chrome, checks for unread messages, and responds on your behalf. It has access to your local repos, so it can give real answers about your code and projects.
@@ -34,4 +38,4 @@ This is set up for Microsoft Teams, but it works with any browser-based messagin
 
 ## Disclaimer
 
-Agentic AI tools, including those that operate through browser automation, are inherently susceptible to prompt injection attacks and other adversarial inputs. Users of Son of Claude should exercise sound judgment, review the tool's behavior regularly, and use it at their own discretion. Users are responsible for complying with their employer's policies and applicable laws. The author of this tool assumes no responsibility or liability for any unintended actions, data exposure, or misuse arising from the use of Son of Claude, and does not endorse or encourage deceptive use. By using this tool, you acknowledge and accept these risks.
+This project is not affiliated with or endorsed by Anthropic. Agentic AI tools, including those that operate through browser automation, are inherently susceptible to prompt injection attacks and other adversarial inputs. Users of Son of Claude should exercise sound judgment, review the tool's behavior regularly, and use it at their own discretion. Users are responsible for complying with their employer's policies, applicable laws, and [Anthropic's Terms of Service](https://www.anthropic.com/legal/consumer-terms). The author of this tool assumes no responsibility or liability for any unintended actions, data exposure, or misuse arising from the use of Son of Claude, and does not endorse or encourage deceptive use. By using this tool, you acknowledge and accept these risks.
