@@ -4,7 +4,7 @@ A Claude Code tool that monitors your Microsoft Teams and responds to messages �
 
 ## Why
 
-You're deep in focus, but Teams keeps lighting up. You don't want to leave people hanging, but every context switch costs you. Son of Claude acts as your AI representative — it replies to messages so your coworkers stay unblocked while you stay in the zone. And because it runs from Claude Code with access to your local repos, it can give real answers about your code, architecture, and projects — not just "I'll get back to you."
+You're deep in focus, but Teams keeps lighting up. You don't want to leave people hanging, but every context switch costs you. Son of Claude acts as your AI representative — it replies to messages so your coworkers stay unblocked while you stay in the zone. It won't pretend to be you — it introduces itself as your AI assistant. And because it runs from Claude Code with access to your local repos, it can give real answers about your code, architecture, and projects — not just "I'll get back to you."
 
 ## How it works
 
